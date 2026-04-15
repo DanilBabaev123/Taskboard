@@ -27,7 +27,7 @@ A full-stack task management system for teams (simplified Trello/Asana clone) bu
 ```bash
 # Clone the repository
 git clone https://github.com/DanilBabaev123/Taskboard.git
-cd taskboard
+cd Taskboard
 
 # Install PHP dependencies
 composer install
