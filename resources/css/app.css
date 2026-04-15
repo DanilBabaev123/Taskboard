@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'BebasNeue-Regular';
+    src: url('.../fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'BebasNeue-Regular', sans-serif;
+    background: #001f54;
+    color: #1a202c;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+button {
+    font-family: 'BebasNeue-Regular', sans-serif;
+    cursor: pointer;
+    background: #3490dc;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+}
+button:hover {
+    background: #2779bd;
+}
+button.danger {
+    font-family: 'BebasNeue-Regular', sans-serif;
+    background: #e3342f;
+}
+button.danger:hover {
+    background: #cc1f1a;
+}
+
+a {
+    color: #3490dc;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+.task-card {
+    background: white;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: box-shadow 0.2s;
+}
+.task-card:hover {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
